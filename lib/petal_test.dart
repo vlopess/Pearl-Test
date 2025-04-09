@@ -3,6 +3,6 @@
 /// More dartdocs go here.
 library;
 
-export 'src/pearl_test_base.dart';
+export 'src/petal_test_base.dart';
 
 // TODO: Export any libraries intended for clients of this package.

@@ -1,4 +1,4 @@
-import 'package:pearl_test/pearl_test.dart';
+import 'package:petal_test/petal_test.dart';
 import 'package:test/test.dart';
 
 void main() {
