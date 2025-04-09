@@ -1,6 +1,6 @@
 
 ![](https://raw.githubusercontent.com/vlopess/Pearl-Test/refs/heads/main/header.png)
-## Pearl Test
+## Petal Test
 
 A minimalist, simple test package for Dart 
 
