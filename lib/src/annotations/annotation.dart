@@ -16,3 +16,14 @@ class AfterEach {
 class Test {
   const Test();
 }
+
+/// Marks test as disable
+class Disabled {
+  const Disabled();
+}
+
+/// Masks test repeateble test
+class RepeatedTest{
+  final int value ;
+  const RepeatedTest({this.value  = 1});
+}
