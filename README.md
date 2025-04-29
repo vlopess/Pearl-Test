@@ -22,11 +22,17 @@ class ClassTest {
     print("After Each Test");
   }
 
-  @Disabled()
   @RepeatedTest(value: 3)
   @DisplayName(displayName: "Esse teste vai repetir várias vezes")
   void test1() {
     print('Eu sou o teste 1 e repito várias vezes');
+  }
+
+  @Test()
+  @ParameterizedTest()
+  @ValueSource.int([1, 2, 3, 4, 5])
+  void test4(int value){
+    print("Eu sou o número $value");
   }
 
 }
